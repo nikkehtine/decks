@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
 
 import { Homepage } from "./home/Homepage.tsx";
+import { NotFound } from "./pages/NotFound.tsx";
 
 const root = document.getElementById("root")!;
 createRoot(root).render(
@@ -12,6 +13,7 @@ createRoot(root).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
