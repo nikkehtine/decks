@@ -1,22 +1,15 @@
-import "./index.css";
+import "@/index.css";
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
 
-import { Homepage } from "./home/Homepage.tsx";
-import { NotFound } from "./pages/NotFound.tsx";
+import { DecksRouter } from "@/routes";
 
 const root = document.getElementById("root");
 if (root) {
   createRoot(root).render(
     <StrictMode>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <DecksRouter />
     </StrictMode>,
   );
 } else {
