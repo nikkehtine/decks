@@ -29,6 +29,10 @@ export default defineConfig([
         projectService: true,
       },
     },
+    rules: {
+      "@typescript-eslint/consistent-type-definitions": "off",
+      // "@typescript-eslint/no-unsafe-assignment": "off",
+    },
   },
   {
     plugins: {

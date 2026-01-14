@@ -8,9 +8,7 @@ import { Homepage } from "./home/Homepage.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 
 const root = document.getElementById("root");
-if (!root) {
-  console.error("Could not create root. App not initialized");
-} else {
+if (root) {
   createRoot(root).render(
     <StrictMode>
       <BrowserRouter>
@@ -21,4 +19,6 @@ if (!root) {
       </BrowserRouter>
     </StrictMode>,
   );
+} else {
+  console.error("Could not create root. App not initialized");
 }

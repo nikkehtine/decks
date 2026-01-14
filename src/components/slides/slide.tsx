@@ -1,1 +1,3 @@
-export const Slide = () => {};
+export const Slide = () => {
+  <></>;
+};
