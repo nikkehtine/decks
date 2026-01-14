@@ -1,6 +1,6 @@
 import type { ClassValue } from "clsx";
 
-import { Details } from "./sections/Details";
+import { Details } from "@/components/home/sections/Details";
 
 const sectionsStyles: ClassValue = "px-4 py-2";
 
