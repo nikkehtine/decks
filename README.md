@@ -14,9 +14,9 @@ Everything is bundled with Vite into a static site ready for free deployment on 
 
 ### Prerequisites
 
-- Node.js 18+ (ideally 24+)
-- pnpm
-  - npm, bun, deno & others might work, but you'll have to see for yourself
+- **Node.js** 20+ (ideally 24+)
+- **pnpm** (optional but recommended)
+  - this project targets **pnpm**, but **npm**, **yarn**, **bun** & others should also work
 
 ### Installation
 
