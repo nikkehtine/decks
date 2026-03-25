@@ -1,6 +1,6 @@
 # Decks
 
-Simple web presentations with React, Vite and Tailwind!
+Simple web presentations with React, Vite and Tailwind
 
 ## Motivation
 
@@ -14,9 +14,9 @@ Everything is bundled with Vite into a static site ready for free deployment on 
 
 ### Prerequisites
 
-- **Node.js** 20+ (ideally 24+)
-- **pnpm** (optional but recommended)
-  - this project targets **pnpm**, but **npm** and others should also work
+- **Node.js** v22 or higher
+- **pnpm** (recommended)
+  - **npm** and others should also work
 
 ### Installation
 
