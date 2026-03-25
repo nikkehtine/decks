@@ -16,7 +16,7 @@ Everything is bundled with Vite into a static site ready for free deployment on 
 
 - **Node.js** 20+ (ideally 24+)
 - **pnpm** (optional but recommended)
-  - this project targets **pnpm**, but **npm**, **yarn**, **bun** & others should also work
+  - this project targets **pnpm**, but **npm** and others should also work
 
 ### Installation
 
